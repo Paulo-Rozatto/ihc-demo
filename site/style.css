@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body input {
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+img:hover {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+#doacoes {
+    flex-basis: 80%;
+
+}
+
+#search {
+    margin: 1rem;
+    border-radius: 1.2rem;
+}
